@@ -30,7 +30,7 @@ app.use(boardRoute);
 // app.use(taskRoute);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the API!");
+  res.send("Welcome to the Kanban Board API!");
 });
 
 app.listen(PORT, () => {
